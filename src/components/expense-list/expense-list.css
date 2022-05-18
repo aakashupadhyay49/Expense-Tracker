@@ -1,0 +1,47 @@
+.expense-list{
+    margin: 6px 12px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.empty-state{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.empty-image{
+    height: 270px;
+}
+.empty-portion label{
+    display: flex;
+    align-items: center;
+}
+
+
+@media only screen and (max-width:1024px){
+    .empty-state{
+        height: 140px;
+    }
+}
+
+@media only screen and (max-width:512px){
+    .expense-list{
+        margin: 140px 12px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .empty-state{
+        height: 30px;
+    }
+}
+
+
+/* @media only screen and (max-width:320x){
+    .empty-state{
+        height: 20px;
+    }
+} */
